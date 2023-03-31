@@ -7,7 +7,7 @@ document.querySelector("#user_input").addEventListener("keydown", (event) => {
     addItem();
 });
 
- addItem = () => {
+let addItem = () => {
   const item = document.createElement("h2")
   item.textContent = "* " + document.querySelector("#user_input").value;
 
